@@ -659,7 +659,7 @@ padding: 40px 32px 164px;
  .modal{
    position: absolute;
     width: 408px;
-    height: 576px;
+    height: 584px;
     left: 50%;
     top: 88px;
     transform: translateX(-50%);
@@ -762,6 +762,52 @@ padding-top: 8px;
 padding-left: 16px;
 color: rgba(117, 117, 117, 0.5);
 }
+.checkbox-input{
+
+}
+.checkbox-text{  
+}
+.modal-checkbox-text{
+   font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+color: #757575;
+display: flex;
+
+margin-bottom: 24px;
+}
+.checkbox-img{
+   position: absolute;
+    top: 4px;
+    left: 2px;
+    width: 10px;
+    height: 8px;
+}
+.btn-send{
+   align-self: center;
+   width: 169px;
+height: 56px;
+color: #FFFFFF;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+border: none;
+padding: 0;
+transition: background-color var(--overlay-time),
+    box-shadow var(--overlay-time);
+}
+.btn-send :hover{
+   background: #404BBF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+}
+.btn-send :focus{
+   background: #404BBF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+}
+
 
 
 
