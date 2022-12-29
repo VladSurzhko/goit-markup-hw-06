@@ -870,9 +870,22 @@ display: flex;
 margin-bottom: 24px;
 }
 .checkbox-img{
+   position: absolute;
+   top: 50%;
+   left: 2px;
+   transform: translateY(-50%);
     width: 10px;
     height: 8px;
+transition: background-color var(--overlay-time);
+border: var(--overlay-time);
+    
 }
+.checkbox-input:checked + .checkbox-text{
+   background: #404BBF;
+   border: 1.25px solid #404BBF;
+border-radius: 2px;
+}
+
 .btn-send{
    align-self: center;
    width: 169px;
@@ -896,6 +909,9 @@ transition: background-color var(--overlay-time),
    background: #404BBF;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px;
+}
+.privacy-policy-link{
+   color: #4D5AE5;
 }
 
 
