@@ -808,6 +808,8 @@ height: 40px;
 padding-left: 38px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+transition: color var(--overlay-time),
+border var(--overlay-time);
 }
 .modal-input:focus{
    outline: none;
@@ -837,6 +839,8 @@ position: relative;
 height: 18px;
 top: 50%;
 left: 16px;
+transition: color var(--overlay-time),
+border var(--overlay-time);
 }
 .user-comment{
    resize: none;
@@ -885,8 +889,8 @@ margin-bottom: 24px;
    transform: translateY(-50%);
     width: 10px;
     height: 8px;
-transition: background-color var(--overlay-time);
-border: var(--overlay-time);
+transition: background-color var(--overlay-time),
+border var(--overlay-time);
     
 }
 .checkbox-input:checked + .checkbox-text{
