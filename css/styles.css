@@ -511,6 +511,78 @@ transition: color var(--overlay-time);
  .footer-link :last-child{
    margin: 0;
  }
+.subscribe{
+   margin: 0;
+   padding: 0;
+   margin-left: 80px;
+}
+.subscribe-text{
+   width: 75px;
+   height: 24px;
+   margin: 0;
+   margin-bottom: 16px;
+   font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+}
+.footer-form{
+   display: flex;
+}
+.footer-input{
+   width: 264px;
+   height: 40px;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+outline: none;
+color: var(--white-color);
+background-color: transparent;
+padding-left: 16px;
+}
+
+.footer-input::placeholder{
+   font-weight: 500;
+font-size: 12px;
+line-height:24px;
+align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 16px;
+}
+
+.footer-btn{
+   width: 165px;
+   height: 40px;
+   display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 16px;
+color: #FFFFFF;
+background: #4D5AE5;
+border-radius: 4px;
+margin-left: 24px;
+border: none;
+cursor: pointer;
+transition: background-color var(--overlay-time),
+    box-shadow var(--overlay-time);
+}
+.footer-btn :hover{
+   background: #404BBF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.footer-btn :focus{
+   background: #404BBF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.footer-icon{
+   width: 24px;
+   height: 20px;
+}
+
+
 
   /*--Modal--*/
   .modal-back{
@@ -765,7 +837,17 @@ color: rgba(117, 117, 117, 0.5);
 .checkbox-input{
 
 }
-.checkbox-text{  
+.checkbox-text{ 
+   cursor: pointer;
+    display: block;
+    position: relative;
+    border: 1.25px solid #2E2F42;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0;
+    margin-right: 8px; 
 }
 .modal-checkbox-text{
    font-weight: 500;
@@ -777,9 +859,6 @@ display: flex;
 margin-bottom: 24px;
 }
 .checkbox-img{
-   position: absolute;
-    top: 4px;
-    left: 2px;
     width: 10px;
     height: 8px;
 }

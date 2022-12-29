@@ -357,11 +357,22 @@
             </li>
         </ul>
         </div>
-        <form action="">
-            <label for="Mail">
-              <input type="text" name="footer-input" placeholder="E-mail">
-            </label>
+        <div class="subscribe">
+            <p class="subscribe-text">Subscribe</p>
+        <form class="footer-form">
+              <input class="footer-input"
+              type="text"
+               name="footer-input" 
+               placeholder="E-mail">
+               <button type="submit"
+                class="footer-btn">
+                Subscribe
+                <svg class="footer-icon">
+                    <use href="./img/icon-send.svg#icon-icon-send"></use>
+                </svg>
+               </button>
         </form> 
+        </div>
     </div>    
     </footer>
 
@@ -409,8 +420,10 @@
                 name="user-comment"
                 placeholder="Text input"></textarea>
             </label>
-            <label class="modal-checkbox-text">
-                <input class="checkbox-input" type="checkbox">
+            <label for="modal-checkbox" class="modal-checkbox-text">
+                <input class="checkbox-input"
+                id="modal-checkbox" 
+                type="checkbox">
                 <span class="checkbox-text">
                     <svg class="checkbox-img">
                         <use href="./img/icon-modul.svg#icon-Checkbox"></use>
