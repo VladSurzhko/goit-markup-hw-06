@@ -814,8 +814,8 @@ border-radius: 4px;
    border: 1px solid #4D5AE5;
 border-radius: 4px;
 }
-.modal-input + .modal-img:focus{
-   fill: color #4D5AE5;
+.modal-input:focus + .modal-img{
+   fill: #4D5AE5;
 }
 .modal-label-name{
    font-weight: 500;
