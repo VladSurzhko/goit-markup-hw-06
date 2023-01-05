@@ -755,6 +755,7 @@ padding: 40px 32px 164px;
     left: 50%;
     top: 88px;
     padding: 24px;
+    padding-top: 72px;
     margin: 0;
     transform: translateX(-50%);
     background: #FCFCFC;
@@ -798,9 +799,7 @@ transition: color var(--overlay-time);
 .modal-text{
    text-align: center;
    font-weight: 500;
-   width: 360px;
-   padding-top: 24px;
-   padding-bottom: 14px;
+   margin: 0;
 height: 24px;
 color: #2E2F42;
 }
